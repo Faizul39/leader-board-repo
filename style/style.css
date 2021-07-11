@@ -2,5 +2,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /*grid-template-columns: 1fr 1fr 1fr;*/
-
+}
+.players img{
+    width:56px;
+    height: 56px;
 }
