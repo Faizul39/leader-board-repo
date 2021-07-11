@@ -1,0 +1,11 @@
+echo "# leader-board-repo" >> README.md
+
+git init
+git add .
+git commit -m "Updated"
+git push
+
+
+git branch -M main
+git remote add origin https://github.com/Faizul39/leader-board-repo.git
+git push -u origin main
