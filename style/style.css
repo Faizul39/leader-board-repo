@@ -134,9 +134,7 @@ hr{
 /*-------------------
     Media Queries
 ---------------------*/
-/*-------------------
-    Mobile Device
----------------------*/
+/* Mobile Device */
 @media only screen and (max-width:668px) {
   .container{
    width: 100%;
@@ -163,5 +161,5 @@ hr{
   .blogs{
     grid-template-columns: repeat(1, 1fr);
   }
-     
+
 }
