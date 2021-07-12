@@ -39,7 +39,6 @@ hr{
 }
 
 .players{
-
     display:grid ;
     grid-template-columns: repeat(3, 1fr);
     /*grid-template-columns: 1fr 1fr 1fr;*/
@@ -123,7 +122,7 @@ hr{
     font-size: 12px;
 }
 
-.fa-star.filled{
+.fa-star .filled{
     color: #FFC014;
 }
 
@@ -139,9 +138,11 @@ hr{
   .container{
    width: 100%;
   }
+
  .players .blogs .courses{ 
     grid-template-columns: repeat(1, 1fr);
   }
+  
   .player .blog{
       flex-direction:column ;
   }
